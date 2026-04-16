@@ -1,6 +1,7 @@
 """
 Resume Screening AI System
 Ranks resumes by relevance to a job description using NLP similarity.
+No external ML libraries required - pure Python implementation.
 """
 
 import re
@@ -319,4 +320,3 @@ if __name__ == "__main__":
         print(f"\n#{r['rank']}  {r['name']}  |  Score: {r['score']}%  |  Grade: {r['grade']}")
         print(f"     Keywords: {', '.join(r['matched_keywords'][:8])}")
     print("\n" + "=" * 60)
-    
