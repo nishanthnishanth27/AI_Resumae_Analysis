@@ -319,3 +319,4 @@ if __name__ == "__main__":
         print(f"\n#{r['rank']}  {r['name']}  |  Score: {r['score']}%  |  Grade: {r['grade']}")
         print(f"     Keywords: {', '.join(r['matched_keywords'][:8])}")
     print("\n" + "=" * 60)
+    
